@@ -5,8 +5,8 @@ const route = Router();
 
 route.get("/", userCtrl.getData);
 route.get("/:id", userCtrl.getDataById);
-route.post("/", userCtrl.saveData);
 
+route.post("/", userCtrl.saveData);
 route.put("/:id", userCtrl.actualizar)
 route.delete("/:id", userCtrl.eliminar)
 

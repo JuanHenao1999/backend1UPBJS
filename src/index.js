@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-// ruta de usuarios 
+// ruta de usuarios
 import userRoute from "./routes/ejemplo.route.js"
 
 const app = express();
